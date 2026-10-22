@@ -197,6 +197,17 @@ input:focus, select:focus { outline: 2px solid var(--primario); outline-offset: 
 
 .datos { margin: 0; padding-left: 1.2rem; font-variant-numeric: tabular-nums; }
 
+.operacion {
+  margin: 0;
+  padding: 0.8rem 1rem;
+  background: var(--fondo);
+  border-radius: 8px;
+  font-family: ui-monospace, Consolas, "Courier New", monospace;
+  font-size: 1.05rem;
+  line-height: 1.6;
+}
+.nota { flex-basis: 100%; margin: 0; color: var(--suave); font-size: 0.85rem; }
+
 @media (max-width: 480px) {
   .acciones .btn { flex: 1; }
   .topbar h1 { font-size: 1.05rem; }
